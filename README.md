@@ -1,12 +1,9 @@
 # Configuration
-you need a config.py file which looks like this:
-
-username="your username"
-
-password="your password"
-
-server="for example xyz.webuntis.com"
-
-school="your webuntis school name"
-
-useragent="the useragent you want to use for the api"
+you need a credentials.json file which should look like this:
+{
+    "username":"your_username",
+    "password":"your_password",
+    "server":"your_webuntis_server(for example xyz.webuntis.com)",
+    "school":"your_school",
+    "useragent":"useragent"
+}
